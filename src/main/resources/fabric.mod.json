@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "s3-api",
+  "version": "${version}",
+  "name": "S3-API",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/newlevelvr/fabric-s3-api"
+  },
+  "license": "Apache-2.0",
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*"
+  }
+}
