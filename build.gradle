@@ -72,9 +72,6 @@ shadowJar {
 remapJar {
     dependsOn shadowJar
     from zipTree(shadowJar.archivePath)
-    doLast {
-        delete(shadowJar.archivePath as Object)
-    }
 }
 
 artifacts {
